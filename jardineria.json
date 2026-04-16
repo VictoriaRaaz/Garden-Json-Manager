@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "Maceta de cerámica",
+    "precio": 12.99,
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "nombre": "Tierra para plantas 10L",
+    "precio": 8.50,
+    "stock": 40
+  },
+  {
+    "id": 3,
+    "nombre": "Regadera metálica",
+    "precio": 15.75,
+    "stock": 18
+  },
+  {
+    "id": 4,
+    "nombre": "Semillas de tomate",
+    "precio": 2.99,
+    "stock": 100
+  },
+  {
+    "id": 5,
+    "nombre": "Tijeras de podar",
+    "precio": 22.30,
+    "stock": 12
+  }
+]
