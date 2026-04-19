@@ -124,7 +124,7 @@ public class Main {
     public static void buscarPorId(List<Producto> productos, int id) {
         for (Producto p : productos) {
             if (p.getId() == id) {
-                System.out.println("Usuario encontrado[cite: 116]:");
+                System.out.println("Producto encontrado:");
                 System.out.println("ID: " + p.getId());
                 System.out.println("Nombre: " + p.getNombre());
                 System.out.println("Precio: " + p.getPrecio() + "€");
