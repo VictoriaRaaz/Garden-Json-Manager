@@ -40,7 +40,7 @@ public class Main {
                         // Recorremos la lista cargada en memoria
                         for (Producto p : productos) {
                             System.out.println("ID: " + p.getId() + " | Nombre: " + p.getNombre() +
-                                    " | Precio: " + p.getPrecio() + "€ | Stock: " + p.getStock());
+                                    " | Precio: " + p.getPrecio() + "$ | Stock: " + p.getStock());
                         }
                     }
                     break;
@@ -86,14 +86,14 @@ public class Main {
                     int idEliminar = validarEntero(sc);
 
                     eliminarProducto(productos, idEliminar);
-                    guardar(ruta, productos); // Actualizar fichero [cite: 156]
+                    guardar(ruta, productos); // Actualizar fichero
                     break;
 
                 case 5:
                     System.out.println("\n--- Búsqueda de Producto ---");
                     System.out.print("Introduce el ID a buscar: ");
                     int idBuscar = validarEntero(sc);
-                    buscarPorId(productos, idBuscar); // Solo consulta, no cambia el fichero [cite: 115]
+                    buscarPorId(productos, idBuscar); // Solo consulta, no cambia el fichero 
                     break;
 
                 case 6:
@@ -127,7 +127,7 @@ public class Main {
                 System.out.println("Producto encontrado:");
                 System.out.println("ID: " + p.getId());
                 System.out.println("Nombre: " + p.getNombre());
-                System.out.println("Precio: " + p.getPrecio() + "€");
+                System.out.println("Precio: " + p.getPrecio() + "$");
                 System.out.println("Stock: " + p.getStock());
                 return;
             }
@@ -146,7 +146,7 @@ public class Main {
 
     public static double validarDouble(Scanner sc) {
         while (!sc.hasNextDouble()) {
-            System.out.print("Error. Introduce un precio válido (ej: 10,50): ");
+            System.out.print("Error. Introduce un precio válido: ");
             sc.next();
         }
         return sc.nextDouble();

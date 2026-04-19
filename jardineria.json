@@ -46,5 +46,11 @@
     "nombre": "Piscina hinchable",
     "precio": 22.48,
     "stock": 11
+  },
+  {
+    "id": 9,
+    "nombre": "enriqeu",
+    "precio": 223.34,
+    "stock": 1
   }
 ]
