@@ -23,7 +23,7 @@ public class Main {
             System.out.println("\n--- Menú Tienda de Jardinería ---");
             System.out.println("1. Mostrar todos los productos.");
             System.out.println("2. Añadir producto.");
-            System.out.println("3. Modificar precio del producto.");
+            System.out.println("3. Modificar precio o stock del producto.");
             System.out.println("4. Eliminar producto.");
             System.out.println("5. Buscar por ID.");
             System.out.println("6. Salir.");
